@@ -1,0 +1,6 @@
+# R files
+.RData
+.Rhistory
+*.RData
+my_console_history.R
+project_workspace.RData
