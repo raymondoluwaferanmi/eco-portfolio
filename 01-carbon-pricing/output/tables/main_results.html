@@ -1,0 +1,32 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{2}{c}{ln\_co2}\\
+   Model:        & (1)             & (2)\\  
+   \midrule
+   \emph{Variables}\\
+   post\_2013    & -0.1559$^{***}$ & -0.1337$^{***}$\\   
+                 & (0.0248)        & (0.0247)\\   
+   ln\_gdp\_pc   &                 & 0.0693\\   
+                 &                 & (0.0941)\\   
+   ln\_pop       &                 & -1.307$^{***}$\\   
+                 &                 & (0.2395)\\   
+   industry      &                 & 0.0122$^{**}$\\   
+                 &                 & (0.0051)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   iso3c         & Yes             & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations  & 719             & 719\\  
+   R$^2$         & 0.94712         & 0.96577\\  
+   Within R$^2$  & 0.32047         & 0.56012\\  
+   \midrule \midrule
+   \multicolumn{3}{l}{\emph{Clustered (iso3c) standard-errors in parentheses}}\\
+   \multicolumn{3}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+
