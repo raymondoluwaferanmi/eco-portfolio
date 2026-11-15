@@ -5,7 +5,7 @@ Seven reproducible eco-economics projects using **R**, **Python**, and **EViews*
 | # | Project | Tool | Status |
 |---|---------|------|--------|
 | 1 | [Carbon Pricing & Emissions](./01-carbon-pricing) | R | ✅ Complete |
-| 2 | [Green Innovation & Productivity](./02-green-innovation) | Python | ⏳ Planned |
+| 2 | [Green Innovation & Productivity](./02-green-innovation) | Python | ✅ Complete |
 | 3 | [Energy Shock & Inflation](./03-energy-inflation) | EViews | ⏳ Planned |
 | 4 | [Deforestation & Trade](./04-deforestation-trade) | R | ⏳ Planned |
 | 5 | [Policy Stringency Index](./05-policy-index) | Python | ⏳ Planned |
