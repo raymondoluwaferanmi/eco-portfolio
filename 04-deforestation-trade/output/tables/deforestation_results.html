@@ -1,0 +1,33 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{2}{c}{ln\_forest}\\
+   Model:        & (1)      & (2)\\  
+   \midrule
+   \emph{Variables}\\
+   ln\_ag\_exp   & 0.0148   & 0.0103\\   
+                 & (0.0091) & (0.0079)\\   
+   ln\_gdp\_pc   &          & 0.0233\\   
+                 &          & (0.0238)\\   
+   ln\_pop       &          & -0.0703$^{*}$\\   
+                 &          & (0.0417)\\   
+   ag\_land      &          & -0.0073$^{***}$\\   
+                 &          & (0.0016)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   iso3c         & Yes      & Yes\\  
+   year          & Yes      & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations  & 3,677    & 3,677\\  
+   R$^2$         & 0.99807  & 0.99837\\  
+   Within R$^2$  & 0.00908  & 0.16195\\  
+   \midrule \midrule
+   \multicolumn{3}{l}{\emph{Clustered (iso3c) standard-errors in parentheses}}\\
+   \multicolumn{3}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+
